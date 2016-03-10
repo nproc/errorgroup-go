@@ -20,6 +20,14 @@ existing API of most the Go libs I need to return only one error.
 
 I don't want to throw away such important information, so I group them together.
 
+## Tests
+
+```
+go get -u -t github.com/nproc/errorgroup-go
+cd $GOPATH/src/github.com/nproc/errorgroup-go
+go test ./...
+```
+
 ## License
 
 MIT

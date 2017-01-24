@@ -4,8 +4,8 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/nproc/errorgroup-go"
 	. "github.com/smartystreets/goconvey/convey"
+	"github.com/txgruppi/errorgroup-go"
 )
 
 func TestErrorGroup(t *testing.T) {

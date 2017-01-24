@@ -1,7 +1,7 @@
-[![GoDoc](https://img.shields.io/badge/godoc-reference-blue.svg?style=flat-square)](https://godoc.org/github.com/nproc/errorgroup-go)
+[![GoDoc](https://img.shields.io/badge/godoc-reference-blue.svg?style=flat-square)](https://godoc.org/github.com/txgruppi/errorgroup-go)
 ![Codeship](https://img.shields.io/codeship/a2f991d0-c2b4-0133-6f72-4e6bd7c806c7.svg?style=flat-square)
-[![Codecov](https://img.shields.io/codecov/c/github/nproc/errorgroup-go.svg?style=flat-square)](https://codecov.io/github/nproc/errorgroup-go)
-[![Go Report Card](https://img.shields.io/badge/go_report-A+-brightgreen.svg?style=flat-square)](https://goreportcard.com/report/github.com/nproc/errorgroup-go)
+[![Codecov](https://img.shields.io/codecov/c/github/txgruppi/errorgroup-go.svg?style=flat-square)](https://codecov.io/github/txgruppi/errorgroup-go)
+[![Go Report Card](https://img.shields.io/badge/go_report-A+-brightgreen.svg?style=flat-square)](https://goreportcard.com/report/github.com/txgruppi/errorgroup-go)
 
 # Error Group
 
@@ -10,7 +10,7 @@
 ## Installation
 
 ```
-go get -u github.com/nproc/errorgroup
+go get -u github.com/txgruppi/errorgroup
 ```
 
 ## Why?
@@ -23,8 +23,8 @@ I don't want to throw away such important information, so I group them together.
 ## Tests
 
 ```
-go get -u -t github.com/nproc/errorgroup-go
-cd $GOPATH/src/github.com/nproc/errorgroup-go
+go get -u -t github.com/txgruppi/errorgroup-go
+cd $GOPATH/src/github.com/txgruppi/errorgroup-go
 go test ./...
 ```
 
